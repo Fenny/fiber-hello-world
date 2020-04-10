@@ -12,6 +12,10 @@ func main() {
 	app.Get("/", func(c *fiber.Ctx) {
 		c.Send("Hello, World!")
 	})
+	
+	app.Get("/health", func(c *fiber.Ctx) {
+		c.SendStatus(fiber.StatusOK)
+	})
 
 	app.Listen(80)
 }
