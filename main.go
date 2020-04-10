@@ -13,5 +13,5 @@ func main() {
 		c.Send("Hello, World!")
 	})
 
-	app.Listen(8080)
+	app.Listen(80)
 }
