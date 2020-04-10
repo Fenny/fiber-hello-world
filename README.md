@@ -4,7 +4,7 @@ In this example we will be using https://github.com/fenny/fiber-hello-world.
 ![](https://i.imgur.com/MyPUCm0.png)
 
 # 2. Settings
-**Name**: `Fiber`
+**Name**: `Fiber`  
 **Environment**: `Go`  
 **Branch**: `master`  
 **Build Command**: `go build main.go`  
